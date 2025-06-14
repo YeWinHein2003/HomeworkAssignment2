@@ -19,10 +19,10 @@ public class Main {
 
             try {
                 choice = scanner.nextInt();
-                scanner.nextLine(); // Consume newline
+                scanner.nextLine(); 
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input. Please enter a number.");
-                scanner.nextLine(); // Clear the invalid input
+                scanner.nextLine(); 
                 continue;
             }
 
